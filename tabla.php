@@ -1,5 +1,18 @@
+<?php 
+
+    include('./metodos/conexion.php');
+
+    $con = connection();
+
+    $sql = "SELECT * FROM peliculas";
+
+    $query = mysqli_query($con, $sql);
+
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,9 +50,10 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <?php while($row = mysqli_fetch_array($query)): ?>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td> <?= $row['nombre'] ?> </td>
+                        <td> <?= $row['genero'] ?> </td>
                         <td>
                             <a href="">Editar</a>
                         </td>
@@ -47,6 +61,7 @@
                             <a href="">Eliminar</a>
                         </td>
                     </tr>
+                    <?php endwhile; ?>
                 </tbody>
             </table>
         </div>

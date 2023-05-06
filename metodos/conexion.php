@@ -1,6 +1,6 @@
 <?php 
 
-    function connect(){
+    function connection(){
 
         $host = 'localhost';
         $username = 'root';
@@ -9,7 +9,7 @@
 
         $conexion = mysqli_connect($host, $username, $password, $dbname);
 
-        echo ($conexion) ? "Conectado!!!" : mysqli_connect_error();
+        // echo ($conexion) ? "Conectado!!!" : mysqli_connect_error();
 
         return $conexion;
 

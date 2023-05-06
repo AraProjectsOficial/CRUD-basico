@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
     <div class="container d-flex justify-content-center">
         <div class="w-50 ">
             <h1 class="text-center mt-4 mb-4">Crear registro</h1>
-            <form action="">
+            <form method="POST" action="./metodos/create.php">
                 <label for="nombre">Nombre: </label>
                 <input type="text" class="form-control" name="nombre" id="nombre" required>
                 <br>

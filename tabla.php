@@ -58,7 +58,7 @@
                             <a href="update.php?id= <?= $row['id'] ?>">Editar</a>
                         </td>
                         <td>
-                            <a href="">Eliminar</a>
+                            <a href="./metodos/delete.php?id= <?= $row['id'] ?> ">Eliminar</a>
                         </td>
                     </tr>
                     <?php endwhile; ?>

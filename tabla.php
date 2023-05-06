@@ -55,7 +55,7 @@
                         <td> <?= $row['nombre'] ?> </td>
                         <td> <?= $row['genero'] ?> </td>
                         <td>
-                            <a href="">Editar</a>
+                            <a href="update.php?id= <?= $row['id'] ?>">Editar</a>
                         </td>
                         <td>
                             <a href="">Eliminar</a>

@@ -3,5 +3,5 @@ Repositorio para muestra de la creación de un CRUD  básico en php  nativo y ap
 
 <p align="center">
     <h2>Tabla de registros</h2>
-    <img src="https://i.postimg.cc/XNKjXFvM/Captura-de-pantalla-34.png" width="400" alt="Representación" >
+    <img src="https://i.postimg.cc/XNKjXFvM/Captura-de-pantalla-34.png" width="750" alt="Representación" >
 </p>
